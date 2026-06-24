@@ -200,7 +200,7 @@ export const relicDatabase: Record<number, YearData> = {
     ],
     websites: [
       { name: "Pinterest", url: "http://pinterest.com", description: "The virtual pinboard interface explodes in popularity, especially for recipes and interior design.", category: "Social" },
-      { name: "Reddit (Rage Comics Era)", description: "The front page of the internet is dominated by F7U12 rage comics and Advice Animals.", category: "Social" },
+      { name: "Reddit (Rage Comics Era)", url: "http://reddit.com", description: "The front page of the internet is dominated by F7U12 rage comics and Advice Animals.", category: "Social" },
       { name: "Kickstarter", url: "http://kickstarter.com", description: "Crowdfunding hits the mainstream, backing projects like the Pebble E-Paper Watch and Ouya console.", category: "Utility" }
     ],
     games: [
