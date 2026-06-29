@@ -44,22 +44,6 @@ export default function Home() {
       {/* Outer wrapper */}
       <div className="w-full max-w-2xl text-center z-10 flex flex-col items-center">
         
-        {/* Desktop Dolphin Icon Indicator */}
-        <motion.div 
-          className="mb-6 flex flex-col items-center cursor-pointer group"
-          animate={{ y: [0, -8, 0] }}
-          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <div className="w-16 h-16 bg-sky-950/50 border border-sky-400/30 rounded-2xl flex items-center justify-center shadow-aero-glass backdrop-blur-md relative overflow-hidden group-hover:scale-105 transition-transform duration-200">
-            {/* Gloss shine */}
-            <div className="absolute inset-0 bg-aero-gloss-grad opacity-50" />
-            <span className="text-3xl filter drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">🐬</span>
-          </div>
-          <span className="text-[10px] font-mono text-sky-200 mt-1 uppercase tracking-widest bg-sky-950/60 border border-sky-400/20 px-2.5 py-0.5 rounded-full">
-            relic.exe
-          </span>
-        </motion.div>
-
         {/* Logo and title */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}
@@ -70,18 +54,8 @@ export default function Home() {
           <span className="text-[10px] font-bold font-mono tracking-[0.3em] text-emerald-300 uppercase block mb-4 animate-shine-glow">
             ★ SYSTEM TEMPORAL EXPEDITION ★
           </span>
-          
-          {/* User Logo Asset with dynamic glossy glass border highlights */}
-          <div className="relative p-4 rounded-3xl bg-white/5 border border-white/20 shadow-aero-glass max-w-[280px] overflow-hidden mb-4">
-            <div className="absolute inset-0 bg-aero-gloss-grad opacity-40 pointer-events-none" />
-            <img 
-              src="/logo.png" 
-              alt="Relic Logo" 
-              className="max-h-24 object-contain filter drop-shadow-[0_2px_8px_rgba(56,189,248,0.5)]"
-            />
-          </div>
 
-          <h1 className="text-4xl md:text-5xl font-black tracking-tighter text-white font-pixel select-none drop-shadow-[0_4px_10px_rgba(255,255,255,0.4)]">
+          <h1 className="text-7xl md:text-8xl font-black tracking-tighter text-white font-pixel select-none drop-shadow-[0_4px_12px_rgba(56,189,248,0.8)] mb-4">
             RELIC
           </h1>
         </motion.div>
