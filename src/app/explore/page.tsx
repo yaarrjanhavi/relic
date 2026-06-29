@@ -15,6 +15,7 @@ import TimeCapsuleCard from "@/components/TimeCapsuleCard";
 import ButterflySwarm from "@/components/ButterflySwarm";
 import WindowsMediaPlayer from "@/components/WindowsMediaPlayer";
 import Soundboard from "@/components/Soundboard";
+import SotyPlayer from "@/components/SotyPlayer";
 import { fetchYearDetails } from "@/utils/api";
 import { YearData } from "@/utils/relicData";
 
@@ -397,6 +398,9 @@ function ExploreContent() {
 
           {/* Soundboard Component */}
           <Soundboard onNudge={triggerNudge} />
+
+          {/* Song of the Year Player */}
+          <SotyPlayer year={year} />
         </div>
       </div>
     </div>
