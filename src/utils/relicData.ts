@@ -355,7 +355,7 @@ export const relicDatabase: Record<number, YearData> = {
       { title: "CERN Large Hadron Collider Switched On", category: "World", summary: "Scientists power up the world's largest particle collider, prompting internet rumors about black holes swallowing Earth." }
     ],
     videos: [
-      { title: "Rickroll (Rick Astley - Never Gonna Give You Up)", youtubeId: "dQw4w9WgXcQ", views: "1.4B+", description: "The definitive bait-and-switch internet prank reaches peak global popularity." },
+      { title: "Sneezing Baby Panda", youtubeId: "FzRH3iTQPrk", views: "250M+", description: "A mother panda eating bamboo is startled by her baby sneezing, creating a short, legendary clip.", isLocalFallback: true },
       { title: "Evolution of Dance", youtubeId: "dMH0bHeiRNg", views: "300M+", description: "Inspirational stand-up comedian Judson Laipply performs a mashup of dance styles, setting early YouTube view records." },
       { title: "Charlie bit my finger - again !", youtubeId: "_OBlgSz8sSM", views: "890M+", description: "Two British brothers capture hearts in a simple home video that goes spectacularly viral.", isLocalFallback: true }
     ],
@@ -463,7 +463,7 @@ export const relicDatabase: Record<number, YearData> = {
     ],
     videos: [
       { title: "Nyan Cat", youtubeId: "QH2-TGUlwu4", views: "200M+", description: "An 8-bit cherry pop-tart cat flies through space singing a repeating loop." },
-      { title: "Rebecca Black - Friday", youtubeId: "kfVsfOSbJY0", views: "165M+", description: "An indie-produced teen music video goes viral as the 'worst song ever', racking up millions of views.", isLocalFallback: true }
+      { title: "Fenton the Dog (Richmond Park)", youtubeId: "3GRS8yPLwUA", views: "30M+", description: "A frantic owner chases after his dog Fenton as he stampedes a massive herd of deer across a public park.", isLocalFallback: true }
     ],
     slang: [
       { word: "Planking", meaning: "Lying face down in an awkward public spot while taking a photo", example: "did a plank on top of the mailbox today", channel: "twitter", user1: "TrendFollower", user2: "MemeWatcher", text1: "check out my new planking photo!", text2: "lol that mailbox look dangerous" }
@@ -497,7 +497,7 @@ export const relicDatabase: Record<number, YearData> = {
       { title: "London Olympic Games Go Viral", category: "Culture", summary: "The summer Olympics are dubbed the first 'social media games' with athletes and spectators sharing live tweets." }
     ],
     videos: [
-      { title: "PSY - GANGNAM STYLE", youtubeId: "9bZkp7q19f0", views: "5B+", description: "Korean artist PSY conquers the globe with a horse-riding dance, breaking YouTube's view counter mechanism." },
+      { title: "Red Bull Stratos Space Jump", youtubeId: "vvbN-cKfKrE", views: "50M+", description: "Austrian skydiver Felix Baumgartner jumps from a helium balloon in the stratosphere, breaking the sound barrier.", isLocalFallback: true },
       { title: "KONY 2012", youtubeId: "Y4MnpzRxQyI", views: "100M+", description: "An activist documentary about a Ugandan warlord goes viral overnight, sparking debates on internet activism.", isLocalFallback: true }
     ],
     slang: [
@@ -535,7 +535,7 @@ export const relicDatabase: Record<number, YearData> = {
       { title: "Sony and Microsoft Launch PS4 and Xbox One", category: "Culture", summary: "The eighth generation of home console hardware begins with massive midnight releases." }
     ],
     videos: [
-      { title: "Ylvis - The Fox (What Does The Fox Say?)", youtubeId: "jofNR_WkoCE", views: "1.1B+", description: "A Norwegian comedy duo sings about animal sounds, creating a massive viral earworm." },
+      { title: "How Animals Eat Their Food", youtubeId: "qnydFmqHuVo", views: "145M+", description: "A hilarious comedy sketch parodies how different animals eat their dinner.", isLocalFallback: true },
       { title: "Harlem Shake Original", youtubeId: "8vJiSSAMNWw", views: "100M+", description: "Office workers and teens do a cut-frame crazy dance to Baauer's trap tune.", isLocalFallback: true }
     ],
     slang: [
@@ -636,9 +636,9 @@ export const relicDatabase: Record<number, YearData> = {
       { title: "Gravitational Waves Detected", category: "World", summary: "LIGO scientists confirm the detection of ripples in spacetime, proving a 100-year-old Einstein theory." }
     ],
     videos: [
-      { title: "PPAP (Pen-Pineapple-Apple-Pen)", youtubeId: "Ct6BUPvE2sM", views: "450M+", description: "Pikotaro's catchy, nonsensical 45-second track becomes a viral earworm, entering the Billboard Hot 100." },
+      { title: "Chewbacca Mask Lady", youtubeId: "y3yRv5Jg5TI", views: "140M+", description: "Candace Payne records herself laughing hysterically in her car while wearing a roaring Chewbacca mask.", isLocalFallback: true },
       { title: "Damn Daniel", youtubeId: "h2W4Z55GgG4", views: "50M+", description: "A Snapchat compilation praising Daniel's white slip-on Vans sweeps the internet.", isLocalFallback: true },
-      { title: "We Are Number One", youtubeId: "PfYnvDL0Qcw", views: "120M+", description: "A song from the children's show LazyTown is remixed thousands of times, raising money for actor Stefán Karl.", isLocalFallback: true }
+      { title: "Ultimate Dog Tease", youtubeId: "nGeKSiCQkPw", views: "200M+", description: "A voiceover parody of a dog talking about maple bacon and cat treats goes mega viral.", isLocalFallback: true }
     ],
     slang: [
       { word: "Dab", meaning: "A dance move/gesture smelling your elbow", example: "He scored a goal and did a dab.", channel: "twitter", user1: "HypeBeast16", user2: "NormieKiller", text1: "just did a sick bottle flip and dabbed on them haters", text2: "cringe lol but nice flip" },
@@ -741,7 +741,7 @@ export const relicDatabase: Record<number, YearData> = {
       { title: "Avengers: Endgame Breaks Box Office Records", category: "Culture", summary: "The culmination of the Marvel Infinity Saga grosses $2.79 Billion globally." }
     ],
     videos: [
-      { title: "Lil Nas X - Old Town Road", youtubeId: "r7qovpFAGrQ", views: "1.2B+", description: "A country-rap track goes viral on TikTok, spending a record 19 weeks at Billboard Hot 100 number one." }
+      { title: "Tesla Cybertruck Window Shatters", youtubeId: "m7atGkG6584", views: "40M+", description: "Elon Musk unveils the futuristic Cybertruck, only for its armored glass windows to break during a live demo.", isLocalFallback: true }
     ],
     slang: [
       { word: "Ok Boomer", meaning: "A dismissive response to out-of-date generational criticisms", example: "when he says put down the phone just say ok boomer", channel: "twitter", user1: "GenZVibe", user2: "BoomerDad", text1: "kids these days don't buy houses because of avocado toast", text2: "ok boomer" }

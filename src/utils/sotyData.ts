@@ -15,28 +15,15 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "*NSYNC",
     genre: "Teen Pop",
     lyrics: [
+      "Hey, hey... Bye, bye, bye",
+      "Bye, bye...",
       "I'm doing this tonight",
       "You're probably gonna start a fight",
       "I know this can't go on",
-      "Baby, bye, bye, bye!",
-      "Don't wanna be a fool for you",
-      "Just another player in your game for two",
-      "You may hate me but it ain't no lie",
       "Baby, bye, bye, bye!"
     ],
     bpm: 110,
-    notes: [
-      // Part 1
-      { pitch: "D4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "A4", duration: 1 },
-      { pitch: "G4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "D4", duration: 1 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "A4", duration: 1 }, { pitch: "Bb4", duration: 0.5 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "E4", duration: 1 },
-      // Part 2
-      { pitch: "D4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "E4", duration: 0.5 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "C4", duration: 1 },
-      { pitch: "D4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "E4", duration: 0.5 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "E4", duration: 1 }
-    ]
+    notes: []
   },
   2001: {
     year: 2001,
@@ -51,17 +38,7 @@ export const sotyDatabase: Record<number, SotySong> = {
       "It's coming on, it's coming on..."
     ],
     bpm: 84,
-    notes: [
-      // Part 1
-      { pitch: "F#3", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "B3", duration: 1 }, { pitch: "A3", duration: 0.5 },
-      { pitch: "F#3", duration: 1 }, { pitch: "F#3", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "B3", duration: 1 },
-      { pitch: "A3", duration: 0.5 }, { pitch: "F#3", duration: 1 }, { pitch: "F#3", duration: 0.5 }, { pitch: "A3", duration: 0.5 },
-      { pitch: "B3", duration: 0.5 }, { pitch: "C#4", duration: 0.5 }, { pitch: "B3", duration: 0.5 }, { pitch: "A3", duration: 0.5 },
-      // Part 2
-      { pitch: "F#3", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "B3", duration: 1 }, { pitch: "B3", duration: 0.5 },
-      { pitch: "B3", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "F#3", duration: 1 },
-      { pitch: "F#3", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "B3", duration: 1 }, { pitch: "B3", duration: 0.5 }
-    ]
+    notes: []
   },
   2002: {
     year: 2002,
@@ -69,24 +46,13 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Eminem",
     genre: "Hip Hop",
     lyrics: [
-      "Lose yourself in the music, the moment",
-      "You own it, you better never let it go",
-      "You only get one shot, do not miss your chance to blow",
-      "This opportunity comes once in a lifetime yo",
-      "You better lose yourself..."
+      "His palms are sweaty, knees weak, arms are heavy",
+      "There's vomit on his sweater already, mom's spaghetti",
+      "He's nervous, but on the surface he looks calm and ready",
+      "To drop bombs, but he keeps on forgetting..."
     ],
     bpm: 86,
-    notes: [
-      // Part 1
-      { pitch: "D3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "D3", duration: 1 },
-      { pitch: "C3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "F3", duration: 0.5 }, { pitch: "F3", duration: 0.5 },
-      { pitch: "F3", duration: 0.5 }, { pitch: "F3", duration: 1 }, { pitch: "E3", duration: 0.5 }, { pitch: "F3", duration: 0.5 },
-      { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 1 },
-      // Part 2
-      { pitch: "A3", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "F3", duration: 0.5 },
-      { pitch: "E3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "D3", duration: 1 },
-      { pitch: "C3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "F3", duration: 0.5 }, { pitch: "F3", duration: 1 }
-    ]
+    notes: []
   },
   2003: {
     year: 2003,
@@ -94,51 +60,29 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "OutKast",
     genre: "Funk / Pop",
     lyrics: [
-      "Hey ya!",
-      "Hey ya!",
-      "Hey ya!",
-      "Hey ya!",
-      "Don't want to meet your daddy",
-      "Just want you in my Caddy",
-      "Don't want to meet your mama",
-      "Just want to make you comma"
+      "One, two, three, uh!",
+      "My girl don't mess around",
+      "Because she loves me so",
+      "And this I know for shooo-ooo-ore!",
+      "Uh, but does she really wanna..."
     ],
     bpm: 120,
-    notes: [
-      // Part 1
-      { pitch: "G4", duration: 1 }, { pitch: "G4", duration: 1 }, { pitch: "C5", duration: 1 }, { pitch: "C5", duration: 1 },
-      { pitch: "D5", duration: 1 }, { pitch: "D5", duration: 1 }, { pitch: "E5", duration: 2 },
-      { pitch: "G4", duration: 1 }, { pitch: "G4", duration: 1 }, { pitch: "C5", duration: 1 }, { pitch: "C5", duration: 1 },
-      // Part 2
-      { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "F4", duration: 0.5 },
-      { pitch: "E4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "C4", duration: 1 },
-      { pitch: "C4", duration: 0.5 }, { pitch: "D4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "D4", duration: 1 }
-    ]
+    notes: []
   },
   2004: {
     year: 2004,
     title: "Yeah!",
-    artist: "Usher ft. Lil Jon",
+    artist: "Usher ft. Lil Jon & Ludacris",
     genre: "Crunk & B",
     lyrics: [
-      "Yeah! (Yeah!) Yeah! (Yeah!)",
-      "In the club with my homies,",
-      "Tryna get a little V-I,",
-      "Keep it down on the low key",
-      "You should know that you're with me",
-      "Yeah, yeah, yeah, yeah!"
+      "Peace up, A-town down!",
+      "Yeah! Usher, Lil Jon, Ludacris!",
+      "Yeah, yeah, yeah, yeah, yeah, yeah!",
+      "In the club with my homies, tryna get a little V-I",
+      "Keep it down on the low key..."
     ],
     bpm: 105,
-    notes: [
-      // Part 1
-      { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 1 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "A4", duration: 0.5 }, { pitch: "A4", duration: 1 },
-      { pitch: "Bb4", duration: 0.5 }, { pitch: "Bb4", duration: 0.5 }, { pitch: "Bb4", duration: 1 },
-      { pitch: "C5", duration: 0.5 }, { pitch: "C5", duration: 0.5 }, { pitch: "C5", duration: 1 },
-      // Part 2
-      { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 1 }
-    ]
+    notes: []
   },
   2005: {
     year: 2005,
@@ -146,24 +90,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Gorillaz",
     genre: "Alternative Rock",
     lyrics: [
-      "Windmill, windmill for the land",
-      "Turn forever hand in hand",
-      "Take it all in on your stride",
-      "It is sinking, free fall flow",
-      "Feel good, shaker, shaker, shake it",
-      "Feel good, shaker, shaker, shake it"
+      "(Crazy laugh) Ha-ha-ha-ha-ha!",
+      "Feel good...",
+      "City's breaking down on a camel's back",
+      "They just have to go, 'cause they don't know wack",
+      "So while you fill the streets, it's appealing to see..."
     ],
     bpm: 130,
-    notes: [
-      // Part 1
-      { pitch: "G3", duration: 0.5 }, { pitch: "Bb3", duration: 0.5 }, { pitch: "C4", duration: 0.5 }, { pitch: "D4", duration: 1 },
-      { pitch: "C4", duration: 0.5 }, { pitch: "Bb3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "F3", duration: 1 },
-      { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "Bb3", duration: 0.5 }, { pitch: "C4", duration: 0.5 },
-      { pitch: "D4", duration: 1 }, { pitch: "C4", duration: 0.5 }, { pitch: "Bb3", duration: 0.5 }, { pitch: "G3", duration: 1 },
-      // Part 2
-      { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "Bb3", duration: 0.5 }, { pitch: "C4", duration: 1 },
-      { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }
-    ]
+    notes: []
   },
   2006: {
     year: 2006,
@@ -171,23 +105,13 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Gnarls Barkley",
     genre: "Soul / Pop",
     lyrics: [
-      "Does that make me crazy?",
-      "Does that make me crazy?",
-      "Does that make me crazy?",
-      "Probably.",
-      "And I hope that you are having the time of your life",
-      "But think twice, that's my only advice"
+      "I remember when, I remember, I remember when I lost my mind",
+      "There was something so pleasant about that phase",
+      "Even your emotions had an echo in so much space",
+      "And when you're out there, without care..."
     ],
     bpm: 112,
-    notes: [
-      // Part 1
-      { pitch: "C4", duration: 1 }, { pitch: "Eb4", duration: 0.5 }, { pitch: "G4", duration: 1 }, { pitch: "Ab4", duration: 0.5 },
-      { pitch: "G4", duration: 1 }, { pitch: "F4", duration: 2 },
-      { pitch: "C4", duration: 1 }, { pitch: "Eb4", duration: 0.5 }, { pitch: "G4", duration: 1 }, { pitch: "Ab4", duration: 0.5 },
-      // Part 2
-      { pitch: "Eb4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "G4", duration: 1 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "Eb4", duration: 0.5 }, { pitch: "F4", duration: 1 }, { pitch: "F4", duration: 0.5 }
-    ]
+    notes: []
   },
   2007: {
     year: 2007,
@@ -195,20 +119,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Rihanna",
     genre: "R&B / Pop",
     lyrics: [
-      "Under my umbrella, ella, ella, eh, eh, eh",
-      "Under my umbrella, ella, ella, eh, eh, eh",
-      "Under my umbrella, ella, ella, eh, eh, eh, eh, eh-eh"
+      "No clouds in my stones",
+      "Let it rain, I hydroplane in the bank",
+      "She fly higher than weather",
+      "And G5's or better...",
+      "You know me, in anticipation for precipitation..."
     ],
     bpm: 126,
-    notes: [
-      // Part 1
-      { pitch: "F4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "Ab4", duration: 1 }, { pitch: "Bb4", duration: 0.5 },
-      { pitch: "Ab4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "F4", duration: 1 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "Ab4", duration: 1 }, { pitch: "Bb4", duration: 0.5 },
-      // Part 2
-      { pitch: "F4", duration: 0.5 }, { pitch: "G4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "Bb4", duration: 0.5 },
-      { pitch: "C5", duration: 0.5 }, { pitch: "Bb4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "Bb4", duration: 1 }
-    ]
+    notes: []
   },
   2008: {
     year: 2008,
@@ -216,22 +134,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Coldplay",
     genre: "Baroque Pop",
     lyrics: [
-      "I hear Jerusalem bells a-ringing",
-      "Roman Cavalry choirs are singing",
-      "Be my mirror, my sword and shield",
-      "My missionaries in a foreign field",
-      "For some reason I can't explain..."
+      "(Instrumental string hook)",
+      "I used to rule the world",
+      "Seas would rise when I gave the word",
+      "Now in the morning, I sleep alone",
+      "Sweep the streets I used to own..."
     ],
     bpm: 138,
-    notes: [
-      // Part 1
-      { pitch: "C#4", duration: 0.5 }, { pitch: "D#4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "F#4", duration: 1 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "D#4", duration: 0.5 }, { pitch: "C#4", duration: 1 },
-      { pitch: "C#4", duration: 0.5 }, { pitch: "D#4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "F#4", duration: 1 },
-      // Part 2
-      { pitch: "C#4", duration: 0.5 }, { pitch: "D#4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 },
-      { pitch: "F4", duration: 0.5 }, { pitch: "D#4", duration: 0.5 }, { pitch: "C#4", duration: 0.5 }, { pitch: "A#3", duration: 1.5 }
-    ]
+    notes: []
   },
   2009: {
     year: 2009,
@@ -239,22 +149,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Lady Gaga",
     genre: "Synth Pop",
     lyrics: [
-      "Can't read my, can't read my",
-      "No, he can't read my poker face",
-      "(She's got me like nobody)",
-      "P-p-p-poker face, p-p-poker face",
-      "Mum-mum-mum-mah!"
+      "Mum-mum-mum-mah",
+      "Mum-mum-mum-mah",
+      "I wanna hold 'em like they do in Texas, please",
+      "Fold 'em, let 'em, hit me, raise it, baby, stay with me",
+      "Love game intuition, play the cards with spades to start..."
     ],
     bpm: 119,
-    notes: [
-      // Part 1
-      { pitch: "G#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 }, { pitch: "G#4", duration: 1 },
-      { pitch: "B4", duration: 0.5 }, { pitch: "G#4", duration: 1 },
-      { pitch: "G#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 }, { pitch: "G#4", duration: 1 },
-      // Part 2
-      { pitch: "G#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 },
-      { pitch: "F#4", duration: 0.5 }, { pitch: "G#4", duration: 1 }
-    ]
+    notes: []
   },
   2010: {
     year: 2010,
@@ -262,23 +164,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Lady Gaga",
     genre: "Dance Pop",
     lyrics: [
-      "Rah-rah-ah-ah-ah",
-      "Roma-roma-ma",
-      "Ga-ga-ooh-la-la",
-      "Want your bad romance",
-      "I want your love and I want your revenge",
-      "You and me could write a bad romance"
+      "Oh-oh-oh-oh-oooh-oh-oh-oooh-oh-oh-oh-oh!",
+      "Caught in a bad romance",
+      "Oh-oh-oh-oh-oooh-oh-oh-oooh-oh-oh-oh-oh!",
+      "Caught in a bad romance",
+      "Rah-rah-ah-ah-ah, roma-roma-ma, ga-ga-ooh-la-la!"
     ],
     bpm: 119,
-    notes: [
-      // Part 1
-      { pitch: "A4", duration: 0.5 }, { pitch: "B4", duration: 0.5 }, { pitch: "C5", duration: 1 }, { pitch: "A4", duration: 0.5 },
-      { pitch: "C5", duration: 0.5 }, { pitch: "A4", duration: 0.5 }, { pitch: "G4", duration: 1 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "B4", duration: 0.5 }, { pitch: "C5", duration: 1 },
-      // Part 2
-      { pitch: "C5", duration: 0.5 }, { pitch: "C5", duration: 0.5 }, { pitch: "C5", duration: 0.5 }, { pitch: "B4", duration: 0.5 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "B4", duration: 0.5 }, { pitch: "B4", duration: 0.5 }, { pitch: "A4", duration: 1 }
-    ]
+    notes: []
   },
   2011: {
     year: 2011,
@@ -286,21 +179,15 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "LMFAO",
     genre: "Electro House",
     lyrics: [
+      "Party rock!",
+      "Yeah, woo!",
+      "Let's go!",
       "Party rock is in the house tonight",
       "Everybody just have a good time",
-      "And we gonna make you lose your mind",
-      "We just wanna see you shake that!"
+      "And we gonna make you lose your mind..."
     ],
     bpm: 130,
-    notes: [
-      // Part 1
-      { pitch: "F#4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "F#4", duration: 1 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 1 },
-      { pitch: "F#4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "F#4", duration: 1 },
-      // Part 2
-      { pitch: "F#4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 0.5 }, { pitch: "F#4", duration: 1 }
-    ]
+    notes: []
   },
   2012: {
     year: 2012,
@@ -308,23 +195,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "PSY",
     genre: "K-Pop",
     lyrics: [
-      "Opa Gangnam Style!",
+      "Oppa Gangnam Style!",
       "Gangnam Style!",
-      "Op, op, op, op",
-      "Opa Gangnam Style!",
-      "Eh- Sexy Lady!",
-      "Op, op, op, op"
+      "Najeneun ttasaroun inganjeogin yeoja",
+      "Keopi hanjaui yeoyureul aneun pumkyeok inneun yeoja",
+      "Bami omyeon simjangi tteugeowojineun yeoja..."
     ],
     bpm: 132,
-    notes: [
-      // Part 1
-      { pitch: "B3", duration: 0.5 }, { pitch: "B3", duration: 0.5 }, { pitch: "B3", duration: 0.5 }, { pitch: "B3", duration: 1 },
-      { pitch: "A3", duration: 0.5 }, { pitch: "B3", duration: 0.5 }, { pitch: "C#4", duration: 1 },
-      { pitch: "B3", duration: 0.5 }, { pitch: "B3", duration: 0.5 }, { pitch: "B3", duration: 0.5 }, { pitch: "B3", duration: 1 },
-      // Part 2
-      { pitch: "E4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "D4", duration: 0.5 },
-      { pitch: "C#4", duration: 0.5 }, { pitch: "B3", duration: 0.5 }, { pitch: "B3", duration: 1 }
-    ]
+    notes: []
   },
   2013: {
     year: 2013,
@@ -332,22 +210,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Daft Punk ft. Pharrell",
     genre: "Disco / Funk",
     lyrics: [
-      "She's up all night 'til the sun",
-      "I'm up all night to get some",
-      "She's up all night for good fun",
-      "I'm up all night to get lucky",
-      "We're up all night to get lucky",
-      "We're up all night to get lucky"
+      "Like the legend of the phoenix",
+      "All ends with beginnings",
+      "What keeps the planet spinning",
+      "The force from the beginning",
+      "We've come too far, to give up who we are..."
     ],
     bpm: 116,
-    notes: [
-      // Part 1
-      { pitch: "B3", duration: 1 }, { pitch: "D4", duration: 1 }, { pitch: "F#4", duration: 1 }, { pitch: "E4", duration: 1 },
-      { pitch: "B3", duration: 1 }, { pitch: "D4", duration: 1 }, { pitch: "F#4", duration: 1 }, { pitch: "E4", duration: 1 },
-      // Part 2
-      { pitch: "B3", duration: 1 }, { pitch: "D4", duration: 1 }, { pitch: "F#4", duration: 1 }, { pitch: "E4", duration: 1 },
-      { pitch: "B3", duration: 1 }, { pitch: "D4", duration: 1 }, { pitch: "F#4", duration: 1 }, { pitch: "E4", duration: 1 }
-    ]
+    notes: []
   },
   2014: {
     year: 2014,
@@ -355,23 +225,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Pharrell Williams",
     genre: "Soul / Pop",
     lyrics: [
-      "Because I'm happy",
-      "Clap along if you feel like a room without a roof",
-      "Because I'm happy",
-      "Clap along if you feel like happiness is the truth",
-      "Because I'm happy",
-      "Clap along if you know what happiness is to you"
+      "It might seem crazy what I'm about to say",
+      "Sunshine she's here, you can take a break",
+      "I'm a hot air balloon that could go to space",
+      "With the air, like I don't care, baby, by the way...",
+      "Because I'm happy!"
     ],
     bpm: 160,
-    notes: [
-      // Part 1
-      { pitch: "F4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "Bb4", duration: 1 }, { pitch: "C5", duration: 0.5 },
-      { pitch: "Bb4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "F4", duration: 1 },
-      { pitch: "Ab4", duration: 0.5 }, { pitch: "Bb4", duration: 1 }, { pitch: "C5", duration: 0.5 },
-      // Part 2
-      { pitch: "F4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "Bb4", duration: 1 }, { pitch: "C5", duration: 0.5 },
-      { pitch: "Bb4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "F4", duration: 1 }
-    ]
+    notes: []
   },
   2015: {
     year: 2015,
@@ -379,21 +240,13 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Mark Ronson ft. Bruno Mars",
     genre: "Funk Pop",
     lyrics: [
-      "Uptown funk you up, uptown funk you up",
-      "Uptown funk you up, uptown funk you up",
-      "Don't believe me, just watch!",
-      "Hey, hey, hey, ow!"
+      "Doh, doh-doh-doh, doh-doh-doh, doh-doh",
+      "Doh, doh-doh-doh, doh-doh-doh, doh-doh",
+      "This hit, that ice cold, Michelle Pfeiffer, that white gold",
+      "This one for them hood girls, them good girls..."
     ],
     bpm: 115,
-    notes: [
-      // Part 1
-      { pitch: "D3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "A3", duration: 1 },
-      { pitch: "C4", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "G3", duration: 1 },
-      { pitch: "D3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "A3", duration: 1 },
-      // Part 2
-      { pitch: "D3", duration: 0.5 }, { pitch: "D3", duration: 0.5 }, { pitch: "G3", duration: 0.5 }, { pitch: "A3", duration: 0.5 },
-      { pitch: "C4", duration: 0.5 }, { pitch: "A3", duration: 0.5 }, { pitch: "G3", duration: 1 }
-    ]
+    notes: []
   },
   2016: {
     year: 2016,
@@ -401,22 +254,15 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Drake ft. Wizkid",
     genre: "Dancehall / Pop",
     lyrics: [
-      "I need a one dance",
-      "Got a Hennessy in my hand",
-      "One more time 'fore I go",
-      "Higher powers taking a hold on me",
-      "Baby, I like your style..."
+      "One dance...",
+      "Baby, I like your style...",
+      "Grips on your waist, front way, back way",
+      "You know that I don't play",
+      "Streets not safe but I never run away",
+      "Even when I'm away..."
     ],
     bpm: 104,
-    notes: [
-      // Part 1
-      { pitch: "F#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "A4", duration: 1 }, { pitch: "B4", duration: 0.5 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 1 },
-      { pitch: "F#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "A4", duration: 1 },
-      // Part 2
-      { pitch: "F#4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "A4", duration: 0.5 }, { pitch: "B4", duration: 0.5 },
-      { pitch: "A4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 1 }
-    ]
+    notes: []
   },
   2017: {
     year: 2017,
@@ -424,22 +270,14 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "Ed Sheeran",
     genre: "Tropical House Pop",
     lyrics: [
-      "I'm in love with the shape of you",
-      "We push and pull like a magnet do",
-      "Although my heart is falling too",
-      "I'm in love with your body",
-      "Last night you were in my room",
-      "And now my bedsheets smell like you"
+      "The club isn't the best place to find a lover",
+      "So the bar is where I go",
+      "Me and my friends at the table doing shots",
+      "Drinking fast and then we talk slow",
+      "And you come over and start up a conversation with just me..."
     ],
     bpm: 96,
-    notes: [
-      // Part 1
-      { pitch: "C#4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "C#4", duration: 1 }, { pitch: "C#4", duration: 0.5 },
-      { pitch: "E4", duration: 0.5 }, { pitch: "C#4", duration: 1 }, { pitch: "C#4", duration: 0.5 }, { pitch: "E4", duration: 0.5 },
-      // Part 2
-      { pitch: "C#4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }, { pitch: "C#4", duration: 1 }, { pitch: "C#4", duration: 0.5 },
-      { pitch: "E4", duration: 0.5 }, { pitch: "C#4", duration: 1 }, { pitch: "C#4", duration: 0.5 }, { pitch: "E4", duration: 0.5 }
-    ]
+    notes: []
   },
   2018: {
     year: 2018,
@@ -451,18 +289,10 @@ export const sotyDatabase: Record<number, SotySong> = {
       "Half of my heart is in Havana, ooh na-na",
       "He took me back to East Atlanta, na-na-na",
       "Oh, but my heart is in Havana",
-      "Havana, ooh na-na"
+      "There's somethin' 'bout his manners..."
     ],
     bpm: 105,
-    notes: [
-      // Part 1
-      { pitch: "G4", duration: 0.5 }, { pitch: "Bb4", duration: 0.5 }, { pitch: "D5", duration: 1 }, { pitch: "C5", duration: 0.5 },
-      { pitch: "Bb4", duration: 0.5 }, { pitch: "A4", duration: 1 }, { pitch: "G4", duration: 0.5 }, { pitch: "Bb4", duration: 0.5 },
-      { pitch: "D5", duration: 1 }, { pitch: "C5", duration: 0.5 }, { pitch: "Bb4", duration: 0.5 }, { pitch: "A4", duration: 1 },
-      // Part 2
-      { pitch: "G4", duration: 0.5 }, { pitch: "Bb4", duration: 0.5 }, { pitch: "D5", duration: 1 }, { pitch: "C5", duration: 0.5 },
-      { pitch: "Bb4", duration: 0.5 }, { pitch: "A4", duration: 1 }, { pitch: "G4", duration: 0.5 }
-    ]
+    notes: []
   },
   2019: {
     year: 2019,
@@ -472,20 +302,12 @@ export const sotyDatabase: Record<number, SotySong> = {
     lyrics: [
       "Yeah, I'm gonna take my horse to the old town road",
       "I'm gonna ride 'til I can't no more",
-      "I got the horses in the back",
-      "Horse tack is attached",
-      "Hat is matte black"
+      "I'm gonna take my horse to the old town road",
+      "I'm gonna ride 'til I can't no more",
+      "I got the horses in the back..."
     ],
     bpm: 136,
-    notes: [
-      // Part 1
-      { pitch: "G#4", duration: 0.5 }, { pitch: "B4", duration: 0.5 }, { pitch: "C#5", duration: 1 }, { pitch: "B4", duration: 0.5 },
-      { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 1 }, { pitch: "G#4", duration: 0.5 }, { pitch: "B4", duration: 0.5 },
-      { pitch: "C#5", duration: 1 }, { pitch: "B4", duration: 0.5 }, { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 1 },
-      // Part 2
-      { pitch: "G#4", duration: 0.5 }, { pitch: "B4", duration: 0.5 }, { pitch: "C#5", duration: 1 }, { pitch: "B4", duration: 0.5 },
-      { pitch: "G#4", duration: 0.5 }, { pitch: "F#4", duration: 1 }
-    ]
+    notes: []
   },
   2020: {
     year: 2020,
@@ -493,20 +315,13 @@ export const sotyDatabase: Record<number, SotySong> = {
     artist: "The Weeknd",
     genre: "Synthwave",
     lyrics: [
-      "I said, ooh, I'm blinded by the lights",
-      "No, I can't sleep until I feel your touch",
-      "I said, ooh, I'm drowning in the night",
-      "Oh, when I'm like this, you're the one I trust",
-      "Hey, hey, hey!"
+      "(Intro Synth Riff)",
+      "Yeah...",
+      "I've been on my own for long enough",
+      "Maybe you can show me how to love, maybe",
+      "I'm going through withdrawals, you don't even have to do too much..."
     ],
     bpm: 171,
-    notes: [
-      // Part 1
-      { pitch: "F4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "F4", duration: 1 },
-      { pitch: "Bb4", duration: 0.5 }, { pitch: "C5", duration: 0.5 }, { pitch: "Eb5", duration: 0.5 }, { pitch: "C5", duration: 1.5 },
-      // Part 2
-      { pitch: "F4", duration: 0.5 }, { pitch: "F4", duration: 0.5 }, { pitch: "Ab4", duration: 0.5 }, { pitch: "F4", duration: 1 },
-      { pitch: "Bb4", duration: 0.5 }, { pitch: "C5", duration: 0.5 }, { pitch: "Eb5", duration: 0.5 }, { pitch: "C5", duration: 1.5 }
-    ]
+    notes: []
   }
 };
