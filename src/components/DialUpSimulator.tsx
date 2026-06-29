@@ -254,7 +254,7 @@ export default function DialUpSimulator({ year }: DialUpSimulatorProps) {
           <GlossyButton
             onClick={startDialUp}
             disabled={status !== "idle"}
-            variant={status === "idle" ? "aqua" : "disabled"}
+            variant={status === "idle" ? "aqua" : "silver"}
             className="w-full py-2 flex items-center justify-center gap-1.5 text-xs font-bold font-mono"
           >
             {status === "idle" ? (
