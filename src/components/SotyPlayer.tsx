@@ -22,7 +22,6 @@ export default function SotyPlayer({ year }: SotyPlayerProps) {
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
-  const [currentLyricIndex, setCurrentLyricIndex] = useState(0);
   const [trackInfo, setTrackInfo] = useState<iTunesTrack | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -32,7 +31,6 @@ export default function SotyPlayer({ year }: SotyPlayerProps) {
   const analyserRef = useRef<AnalyserNode | null>(null);
   const animationFrameRef = useRef<number | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const lyricsTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   // Fetch real track preview from iTunes Search API
   useEffect(() => {
@@ -71,28 +69,7 @@ export default function SotyPlayer({ year }: SotyPlayerProps) {
     };
   }, [year]);
 
-  // Handle lyrics progression synced to the audio duration
-  useEffect(() => {
-    if (lyricsTimerRef.current) {
-      clearInterval(lyricsTimerRef.current);
-    }
-
-    if (isPlaying && song.lyrics.length > 0) {
-      setCurrentLyricIndex(0);
-      const totalDuration = 30; // iTunes previews are 30s
-      const intervalDuration = (totalDuration / song.lyrics.length) * 1000;
-
-      lyricsTimerRef.current = setInterval(() => {
-        setCurrentLyricIndex((prev) => (prev + 1) % song.lyrics.length);
-      }, intervalDuration);
-    } else {
-      setCurrentLyricIndex(0);
-    }
-
-    return () => {
-      if (lyricsTimerRef.current) clearInterval(lyricsTimerRef.current);
-    };
-  }, [isPlaying, year]);
+  // Removed lyrics sync effect
 
   // Clean up audio on unmount
   useEffect(() => {
@@ -343,13 +320,7 @@ export default function SotyPlayer({ year }: SotyPlayerProps) {
             </div>
           </div>
 
-          {/* Lyric scroller */}
-          <div className="w-full bg-slate-950/60 border border-white/5 rounded-xl p-3 mb-4 font-mono text-[11px] h-12 flex items-center justify-center text-center relative">
-            <div className="absolute top-1 left-2 text-[7px] text-slate-500 uppercase">Lyrics</div>
-            <p className="text-slate-100 font-semibold px-2 transition-all duration-300">
-              {isPlaying ? song.lyrics[currentLyricIndex] : "Press PLAY to listen to the original track preview!"}
-            </p>
-          </div>
+          {/* Lyrics section removed */}
 
           {/* Audio Controls */}
           <div className="flex justify-between items-center gap-3">

@@ -16,6 +16,7 @@ import ButterflySwarm from "@/components/ButterflySwarm";
 import WindowsMediaPlayer from "@/components/WindowsMediaPlayer";
 import Soundboard from "@/components/Soundboard";
 import SotyPlayer from "@/components/SotyPlayer";
+import DialUpSimulator from "@/components/DialUpSimulator";
 import { fetchYearDetails } from "@/utils/api";
 import { YearData } from "@/utils/relicData";
 
@@ -401,6 +402,9 @@ function ExploreContent() {
 
           {/* Song of the Year Player */}
           <SotyPlayer year={year} />
+
+          {/* Dial-Up Connection Speedometer */}
+          <DialUpSimulator year={year} />
         </div>
       </div>
     </div>
