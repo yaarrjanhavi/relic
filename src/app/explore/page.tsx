@@ -149,7 +149,7 @@ function ExploreContent() {
                   </h3>
                   <div className="flex flex-col gap-4 text-left">
                     {data.headlines.map((headline, idx) => (
-                      <div key={idx} className="border-b border-white/10 pb-3 last:border-0 last:pb-0">
+                      <div key={idx} className="pb-3 mb-3 last:pb-0 last:mb-0">
                         <span className="text-[9px] font-bold text-emerald-300 bg-emerald-950/40 border border-emerald-400/20 px-2 py-0.5 rounded-full inline-block mb-1">
                           {headline.category}
                         </span>
@@ -168,7 +168,7 @@ function ExploreContent() {
                   </h3>
                   <div className="flex-1 bg-slate-950/70 border border-white/10 rounded-xl p-4 font-mono text-xs flex flex-col justify-between min-h-[220px]">
                     <div>
-                      <div className="text-[10px] text-slate-500 mb-3 border-b border-white/5 pb-1 flex justify-between">
+                      <div className="text-[10px] text-slate-500 mb-3 pb-1 flex justify-between">
                         <span>#LOBBY_{year}</span>
                         <span className="text-emerald-400">● 2 users online</span>
                       </div>
@@ -186,7 +186,7 @@ function ExploreContent() {
                     </div>
 
                     {data.slang[0] && (
-                      <div className="mt-4 pt-3 border-t border-white/5 text-[11px] text-left">
+                      <div className="mt-4 pt-3 text-[11px] text-left">
                         <span className="text-sky-400 font-bold block mb-0.5">Slang Word: "{data.slang[0].word}"</span>
                         <span className="text-slate-300 leading-tight block">{data.slang[0].meaning}</span>
                       </div>
@@ -322,7 +322,7 @@ function ExploreContent() {
                   {/* Historical Web Stats Table */}
                   <div className="mb-4 bg-sky-950/60 border border-sky-400/25 rounded-xl p-3.5 text-left relative overflow-hidden">
                     <div className="absolute inset-0 bg-aero-gloss-grad opacity-10 pointer-events-none" />
-                    <span className="text-[10px] font-mono text-sky-300 font-bold block mb-2.5 uppercase tracking-wider border-b border-white/10 pb-1.5">
+                    <span className="text-[10px] font-mono text-sky-300 font-bold block mb-2.5 uppercase tracking-wider pb-1.5">
                       🌐 Historical Internet Stats
                     </span>
                     <div className="grid grid-cols-2 gap-3 text-xs">

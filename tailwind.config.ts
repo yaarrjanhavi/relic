@@ -36,7 +36,7 @@ const config: Config = {
       },
       backgroundImage: {
         "aero-aurora": "radial-gradient(circle at 20% 30%, rgba(56, 189, 248, 0.3) 0%, transparent 40%), radial-gradient(circle at 80% 70%, rgba(16, 185, 129, 0.25) 0%, transparent 45%), radial-gradient(circle at 50% 50%, rgba(249, 115, 22, 0.08) 0%, transparent 50%)",
-        "aero-gloss-grad": "linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.15) 100%)",
+        "aero-gloss-grad": "linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0) 100%)",
         "aero-aqua": "linear-gradient(180deg, #5ac8fa 0%, #34aadc 40%, #007aff 50%, #005ec4 100%)",
         "aero-grass-bg": "linear-gradient(180deg, #9ae6b4 0%, #48bb78 50%, #2f855a 100%)",
         "aero-silver": "linear-gradient(180deg, #ffffff 0%, #f2f2f2 45%, #e6e6e6 50%, #cccccc 100%)",

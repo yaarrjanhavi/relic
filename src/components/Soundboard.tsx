@@ -251,7 +251,7 @@ export default function Soundboard({ onNudge }: SoundboardProps) {
       <div className="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
 
       {/* Header bar */}
-      <div className="flex items-center gap-1.5 text-xs text-sky-200 font-mono mb-4 border-b border-white/10 pb-2">
+      <div className="flex items-center gap-1.5 text-xs text-sky-200 font-mono mb-4 pb-2">
         <Volume2 className="w-4 h-4 text-emerald-400" />
         <span className="font-bold">RETRO SYSTEM SOUNDS</span>
       </div>

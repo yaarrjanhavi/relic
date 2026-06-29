@@ -44,7 +44,7 @@ export default function ComparePanel({ leftData, rightData }: ComparePanelProps)
           </h3>
           <ul className="flex flex-col gap-3">
             {leftData.headlines.slice(0, 3).map((h, i) => (
-              <li key={i} className="border-b border-white/5 pb-2 last:border-0 last:pb-0">
+              <li key={i} className="pb-2 mb-2 last:pb-0 last:mb-0">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-300 block mb-0.5">
                   {h.category}
                 </span>
@@ -62,7 +62,7 @@ export default function ComparePanel({ leftData, rightData }: ComparePanelProps)
             Slang & Dialogue
           </h3>
           <div className="bg-slate-950/60 border border-white/10 rounded-xl p-4 font-mono text-xs flex flex-col gap-2 max-h-[200px] overflow-y-auto">
-            <div className="text-[10px] text-slate-500 mb-2 border-b border-white/5 pb-1">
+            <div className="text-[10px] text-slate-500 mb-2 pb-1">
               Channel: #{leftData.slang[0]?.channel.toUpperCase() || "CHAT"}
             </div>
             {leftData.slang[0] ? (
@@ -138,7 +138,7 @@ export default function ComparePanel({ leftData, rightData }: ComparePanelProps)
           </h3>
           <ul className="flex flex-col gap-3">
             {rightData.headlines.slice(0, 3).map((h, i) => (
-              <li key={i} className="border-b border-white/5 pb-2 last:border-0 last:pb-0">
+              <li key={i} className="pb-2 mb-2 last:pb-0 last:mb-0">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-300 block mb-0.5">
                   {h.category}
                 </span>
@@ -156,7 +156,7 @@ export default function ComparePanel({ leftData, rightData }: ComparePanelProps)
             Slang & Dialogue
           </h3>
           <div className="bg-slate-950/60 border border-white/10 rounded-xl p-4 font-mono text-xs flex flex-col gap-2 max-h-[200px] overflow-y-auto">
-            <div className="text-[10px] text-slate-500 mb-2 border-b border-white/5 pb-1">
+            <div className="text-[10px] text-slate-500 mb-2 pb-1">
               Channel: #{rightData.slang[0]?.channel.toUpperCase() || "CHAT"}
             </div>
             {rightData.slang[0] ? (
