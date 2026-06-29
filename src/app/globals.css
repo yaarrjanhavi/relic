@@ -102,7 +102,6 @@
       rgba(255, 255, 255, 0.08) 80%, 
       rgba(255, 255, 255, 0) 100%
     );
-    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
     pointer-events: none;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
