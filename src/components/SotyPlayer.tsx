@@ -76,6 +76,7 @@ export default function SotyPlayer({ year }: SotyPlayerProps) {
   const startMelody = () => {
     const ctx = getAudioContext();
     const analyser = initAnalyser(ctx);
+    isPlayingRef.current = true; // Set reference synchronously to prevent immediate return
     setIsPlaying(true);
     
     let noteIndex = 0;
@@ -139,6 +140,7 @@ export default function SotyPlayer({ year }: SotyPlayerProps) {
   };
 
   const stopMelody = () => {
+    isPlayingRef.current = false; // Disable loop synchronously
     if (noteTimeoutRef.current) {
       clearTimeout(noteTimeoutRef.current);
       noteTimeoutRef.current = null;
